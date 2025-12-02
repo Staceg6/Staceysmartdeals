@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Stacey's Smart Deals</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f8f8f8;
+      color: #222;
+    }
+    header {
+      background: #000;
+      color: #fff;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.4rem;
+    }
+    .section {
+      background: white;
+      margin: 20px;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    .section h2 {
+      margin-top: 0;
+      font-size: 1.6rem;
+    }
+    .btn {
+      display: inline-block;
+      background: #0073e6;
+      color: white;
+      padding: 12px 20px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+    .btn:hover {
+      background: #005bb5;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Stacey's Smart Deals</h1>
+    <p>Your curated picks for savings, home essentials, beauty, and must‑have lifestyle upgrades</p>
+  </header>
+
+  <div class="section">
+    <h2>🔥 Costco Best Deals</h2>
+    <p>Hand‑picked savings on food, home goods, appliances, and exclusive Costco finds.</p>
+    <a href="#" class="btn">Shop Costco Deals</a>
+  </div>
+
+  <div class="section">
+    <h2>🌟 Amazon Essentials</h2>
+    <p>Daily must‑haves, beauty upgrades, home tools, convenience items, and viral favorites.</p>
+    <a href="#" class="btn">Shop Amazon Picks</a>
+  </div>
+
+  <div class="section">
+    <h2>💖 Stacey’s VIP Picks</h2>
+    <p>My personal top recommendations for lifestyle, skincare, home, organization, and wellness.</p>
+    <a href="#" class="btn">See My Favorites</a>
+  </div>
+
+  <footer>
+    © 2025 Stacey’s Smart Deals – Affiliate links may earn commissions.
+  </footer>
+</body>
+</html>
